@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.landingNav{
+  height: 60px;
+  width: 100%;
+  background: #15bf6d;
+  color: white;
+}
+
+.fixed-top{
+  position:fixed;top:0;right:0;left:0;z-index:1030
+}
+
+.nav-logo{
+  height: 55px;
+}
+
+.float{
+  float: right;
+  position: absolute;
+  top: 10px;
+  right: 5vw;
+}
+
+.float button{
+  padding: 5px 18px 5px 18px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.float button:focus{
+  outline: none;
+}
+
+button {
+  background: #fd5c3d;
+  font-size:  17px;
+  margin-left: 15px;
+  border: none;
+}
+
+button:hover{
+  background-color: #f7775d;
+}
+
+.Support{
+  background-color: #15bf6d;
+}
+
+.Support:hover{
+  background-color: #15bf6d;
+  text-decoration: underline;
+}
+
+.float label{
+  font-size:  20px;
+}
+
+.landingNav h3{
+  font-size: 30px;
+  font-weight: 500;
+  position: absolute;
+  top: 12px;
+  left: 10vw;
+}
+
+.landing-heading{
+  text-align: center;
+  margin-top: 25px; 
+  display: flex;
+}
+
+.landing-header{
+  display: flex;
+  font-size: 2.5rem;
+  margin-top: 50px;
+  font-weight: 500;
+  margin-left: auto;
+}
+
+.landing-img{
+  height: 500px;
+  margin: 100px auto 0;
+}
+
+.landing-content{
+  margin: 55px auto;
+  width: 40%;
+  font-size: 25px;
+}
+
+.landing-content ul{
+  list-style-type: none;
+  font-size: 25px;
+  font-weight: normal;
+  margin-top: 25px;
+}
+
+.landing-content li{
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.landing-content i{
+  color: #15bf6d;
+}
+
+.landing-content a{
+  text-decoration: none;
+}
+
+.landing-button{
+  padding: 12px 15px 12px 15px;
+  color: white;
+  background: #fd5c3d;
+  border-radius: 5px;
+  margin: 25px;
+  font-size: 20px;
+  cursor: pointer;
+  display: block;
+  border: none;
+}
+
+.landing-button:hover{
+  background-color: #f7775d;
+}
+
+.landing-name{
+  cursor: pointer;
+  color: white;
+  margin-left: 0;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: #15bf6d;
+  color: white;
+}
+
+.footer h3{
+  font-size: 15px;
+  margin: 20px 0;
+}
